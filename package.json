@@ -1,0 +1,12 @@
+{
+  "name": "spritezero-run",
+  "scripts": {
+    "icons": "spritezero ./sprites/sprite ./map-icons && spritezero --ratio=2 ./sprites/sprite@2x ./map-icons && spritezero --ratio=3 ./sprites/sprite@3x ./map-icons"
+  },
+  "devDependencies": {
+    "@mapbox/spritezero-cli": "^2.1.0"
+  },
+  "resolutions": {
+    "@mapbox/spritezero-cli/@mapbox/spritezero": "^8.0.0"
+  }
+}
